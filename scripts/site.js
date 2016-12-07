@@ -5,7 +5,6 @@ $(document).ready(function(){
 		var scrollTop = $(window).scrollTop();
 		var headerHeight = header.height() + 2;
 		
-		//console.log("header.innerHeight", header.innerHeight());
 		console.log("scrollTop: ", scrollTop, $('#about').position().top, headerHeight);
 		if(scrollTop >= $('#about').position().top - headerHeight){
 			header.addClass("slideIn");
